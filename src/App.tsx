@@ -1,9 +1,12 @@
+import { AppWithRoutes } from "./components/6Router/AppWithRoutes"
 
 
 function App() {
 
   return (
-    <h1>Hello!</h1>
+    <>
+      <AppWithRoutes/>
+    </>
   )
 }
 
